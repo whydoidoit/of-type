@@ -1,4 +1,4 @@
-import Pool from 'pool'
+import Pool from 'temporary-object-pooling'
 
 let results = new Pool(() => [], array => array.length = 0)
 let dummyArray = [null]
@@ -29,3 +29,4 @@ pc.Entity.prototype.ofType = function (type) {
     }
     return result;
 }
+

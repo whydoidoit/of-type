@@ -1,0 +1,25 @@
+{
+  "name": "playcanvas-of-type",
+  "version": "1.0.1",
+  "description": "Provides a PlayCanvas method to find all children that have a particular script or component and return that component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whydoidoit/of-type.git"
+  },
+  "keywords": [
+    "PlayCanvas"
+  ],
+  "author": "Mike Talbot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whydoidoit/of-type/issues"
+  },
+  "homepage": "https://github.com/whydoidoit/of-type#readme",
+  "dependencies": {
+    "temporary-object-pooling": "^1.0.1"
+  }
+}
